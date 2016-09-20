@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body {
+    font-family: "Segoe UI", sans-serif;
+    color: #1e1e1e;
+}
+
+nav {
+    z-index: 1;
+    background-color: #FFF;
+    top: 10px;
+    text-align: center;
+}
+nav li {
+    display: inline-block;
+    text-align: center;
+    padding-right: 2em;
+    padding-left: 2em;
+}
+
+nav a {
+    color: #1e1e1e;
+    text-decoration: none;
+    font-family: "Myriad Pro", sans-serif;
+
+}
+
+.main {
+    padding-left: 20%;
+    font-family: "Segoe UI", sans-serif;
+    color: #1e1e1e;
+
+}
+
+h1 {
+    font-size: 70px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 'extra-bold';
+}
+p {
+    line-height: 1.75em;
+}
