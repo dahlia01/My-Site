@@ -2,12 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Peter Lu</title>
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+
+
     <!-- my stylesheet -->
     <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 
     <!-- our script file -->
     <script src="js/apps.js"></script>
@@ -24,13 +32,44 @@
         </ul>
     </nav>
 
-    <div class="main">
-        <h1>Peter Lu</h1>
-        <p>I am a student at the University of Washington. <br> I work in technology
+    <div class="container" id="splash">
+        <h1 style="margin-bottom: .5em">Peter Lu</h1>
+        <div id="titlerect"></div>
+        <p id="intro">I am a student at the University of Washington. <br> I work with technology
             to get things done.<br> Here are some projects I've worked on.</p>
     </div>
 
+    <h2 style="margin-left: 66px;">UX</h2>
 
+    <div class="container" id="UX">
+        <div class="row">
+
+            <div class="col-sm-4"><img class="img-responsive" src="img/Roomies.png"></div>
+            <div class="col-sm-4"><img class="img-responsive" src="img/Carnival.png"></div>
+        </div>
+    </div>
+
+    <h2>DATA</h2>
+
+    <div class="container" id="DATA">
+        <div class="row">
+
+            <div class="col-sm-4"><img class="img-responsive" src="img/sample.png"></div>
+            <div class="col-sm-4"><img class="img-responsive" src="img/sample.png"></div>
+            <div class="col-sm-4"><img class="img-responsive" src="img/sample.png"></div>
+        </div>
+    </div>
+
+    <h2 style="margin-left: 16px;">WEB</h2>
+
+    <div class="container" id="WEB">
+        <div class="row">
+
+            <div class="col-sm-4"><img class="img-responsive" src="img/sample.png"></div>
+            <div class="col-sm-4"><img class="img-responsive" src="img/sample.png"></div>
+            <div class="col-sm-4"><img class="img-responsive" src="img/sample.png"></div>
+        </div>
+    </div>
 
 
 </body>

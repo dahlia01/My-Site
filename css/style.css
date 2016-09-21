@@ -1,41 +1,112 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+@media (max-width: @screen-xs) {
+    body{font-size: 10px;}
+}
+
+@media (max-width: @screen-sm) {
+    body{font-size: 14px;}
+}
+
 body {
     font-family: "Segoe UI", sans-serif;
     color: #1e1e1e;
+    font-size: 15px;
 }
 
 nav {
     z-index: 1;
     background-color: #FFF;
-    top: 10px;
     text-align: center;
+    margin-top: 2em;
 }
 nav li {
     display: inline-block;
     text-align: center;
-    padding-right: 2em;
-    padding-left: 2em;
+    padding-right: 1em;
+    padding-left: 1em;
 }
 
 nav a {
     color: #1e1e1e;
     text-decoration: none;
     font-family: "Myriad Pro", sans-serif;
+    font-size: 1em;
 
 }
 
-.main {
-    padding-left: 20%;
-    font-family: "Segoe UI", sans-serif;
-    color: #1e1e1e;
 
-}
-
-h1 {
+h1, h2 {
     font-size: 70px;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 'extra-bold';
+    font-weight: bold;
+    display: inline-block;
+    margin-top: .75em;
+    margin-left: 0;
+    padding-left: 10%;
+}
+
+h2 {
+    font-size: 48px;
+    text-align: right;
+    display: block;
+    float: left;
+    margin-top: 1.6em;
+    margin-left: 0;
+}
+
+#intro {
+    font-size: 1.2em;
 }
 p {
     line-height: 1.75em;
+    margin-left: 10%;
+}
+#titlerect {
+    background-color: #1e1e1e;
+    height: 2em;
+    display: inline-block;
+    margin-left: 2em;
+}
+
+.row {
+    display: inline-block;
+    margin-bottom: 0em;
+}
+
+#DATA .row {
+    margin-left: 30px;
+}
+
+#UX .row {
+    margin-left: 27px;
+}
+
+#WEB .row {
+    margin-left: 30px;
+}
+
+.col-sm-4 {
+    margin-bottom: .5em;
+    max-resolution: .5em;
+}
+.tile {
+    height: 210px;
+    width: 210px;
+    background-color: #f2e583;
+}
+
+#splash {
+    margin-bottom: 2.5em;
+}
+
+.container {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
 }
