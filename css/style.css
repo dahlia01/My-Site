@@ -1,12 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
-@media (max-width: @screen-xs) {
-    body{font-size: 10px;}
-}
-
-@media (max-width: @screen-sm) {
-    body{font-size: 14px;}
-}
 
 body {
     font-family: "Segoe UI", sans-serif;
@@ -40,10 +33,11 @@ h1, h2 {
     font-size: 70px;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    display: inline-block;
+    /*display: inline-block;*/
     margin-top: .75em;
     margin-left: 0;
     padding-left: 10%;
+
 }
 
 h2 {
@@ -89,6 +83,7 @@ p {
 .col-sm-4 {
     margin-bottom: .5em;
     max-resolution: .5em;
+    opacity: 0;
 }
 .tile {
     height: 210px;
@@ -103,10 +98,17 @@ p {
 .container {
     margin-bottom: 0;
     margin-top: 0;
+    /*visibility: hidden;*/
 }
 
 img {
     max-width: 100%;
     height: auto;
     width: auto\9; /* ie8 */
+    /*visibility: hidden;*/
+
+}
+
+.fadeInBlock {
+    opacity:0;
 }
