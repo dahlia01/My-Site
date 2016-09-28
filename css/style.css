@@ -192,6 +192,12 @@ nav a:focus::after{
     color: #FFF;
 }
 
-form {
-    margin-top: 3em;
+form  {
+    margin: 3em 30% 4em 10%;
+}
+
+.form-control {
+    background-color: #264556;
+    border: 1px solid #FFF;
+    color: #FFF;
 }
